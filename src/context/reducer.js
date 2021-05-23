@@ -1,5 +1,27 @@
 export const initialState = {
-  term: null,
+  products: [
+    {
+      id: Math.random(),
+      name: "Laptop",
+      price: 50000,
+      desc: "Lorem ipsum dolor sit amet.",
+      img: "1.jpg",
+    },
+    {
+      id: Math.random(),
+      name: "Watch",
+      price: 1000,
+      desc: "Lorem ipsum dolor sit amet.",
+      img: "2.jpg",
+    },
+    {
+      id: Math.random(),
+      name: "Mobile",
+      price: 50000,
+      desc: "Lorem ipsum dolor sit amet.",
+      img: "3.jpg",
+    },
+  ],
 };
 
 export const actionTypes = {

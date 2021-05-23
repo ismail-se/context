@@ -1,7 +1,11 @@
+import Header from "./components/Header";
+import Home from "./components/Home";
+
 const App = () => {
   return (
     <div>
-      <h1>App</h1>
+      <Header />
+      <Home />
     </div>
   );
 };
