@@ -1,0 +1,7 @@
+import { useStateValue } from "../context/StateProvider";
+import { actionTypes } from "../context/reducer";
+
+dispatch({
+        type: actionTypes.SET_SEARCH_TERM,
+        term: input,
+      });
